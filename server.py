@@ -44,4 +44,4 @@ def list_files():
     files = os.listdir(UPLOAD_FOLDER) 
     return render_template('file_list.html', files=files) 
 if __name__ == '__main__':
-    app.run(host='192.168.237.200', port=5000, debug=True)
+    app.run(host='Your_ip', port=5000, debug=True)
